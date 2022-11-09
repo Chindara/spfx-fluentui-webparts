@@ -9,10 +9,20 @@
           "manifest": "./src/webparts/home/HomeWebPart.manifest.json"
         }
       ]
+    },
+    "pivot-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pivotWebPart/PivotWebPartWebPart.js",
+          "manifest": "./src/webparts/pivotWebPart/PivotWebPartWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "HomeWebPartStrings": "lib/webparts/home/loc/{locale}.js"
+    "HomeWebPartStrings": "lib/webparts/home/loc/{locale}.js",
+    "PivotWebPartStrings": "lib/webparts/pivot/loc/{locale}.js",
+    "PivotWebPartWebPartStrings": "lib/webparts/pivotWebPart/loc/{locale}.js"
   }
 }
