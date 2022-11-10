@@ -13,6 +13,11 @@ This repository contains samples that demonstrate different fluent UI controls f
 
 - [SharePoint Framework](https://aka.ms/spfx)
 
+## Controls
+
+- [Panel](https://developer.microsoft.com/en-us/fluentui#/controls/web/panel)
+- [Pivot](https://developer.microsoft.com/en-us/fluentui#/controls/web/pivot)
+
 ## Using the sample
 
 To build and start using this project, you'll need to clone and build the package
