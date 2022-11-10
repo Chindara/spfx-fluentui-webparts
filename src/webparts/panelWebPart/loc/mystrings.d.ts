@@ -1,4 +1,4 @@
-declare interface IHomeWebPartStrings {
+declare interface IPanelWebPartWebPartStrings {
   PropertyPaneDescription: string;
   BasicGroupName: string;
   DescriptionFieldLabel: string;
@@ -8,7 +8,7 @@ declare interface IHomeWebPartStrings {
   AppTeamsTabEnvironment: string;
 }
 
-declare module 'HomeWebPartStrings' {
-  const strings: IHomeWebPartStrings;
+declare module 'PanelWebPartWebPartStrings' {
+  const strings: IPanelWebPartWebPartStrings;
   export = strings;
 }

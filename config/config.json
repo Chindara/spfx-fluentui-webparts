@@ -2,19 +2,19 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "home-web-part": {
-      "components": [
-        {
-          "entrypoint": "./lib/webparts/home/HomeWebPart.js",
-          "manifest": "./src/webparts/home/HomeWebPart.manifest.json"
-        }
-      ]
-    },
     "pivot-web-part-web-part": {
       "components": [
         {
           "entrypoint": "./lib/webparts/pivotWebPart/PivotWebPartWebPart.js",
           "manifest": "./src/webparts/pivotWebPart/PivotWebPartWebPart.manifest.json"
+        }
+      ]
+    },
+    "panel-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/panelWebPart/PanelWebPartWebPart.js",
+          "manifest": "./src/webparts/panelWebPart/PanelWebPartWebPart.manifest.json"
         }
       ]
     }
@@ -23,6 +23,7 @@
   "localizedResources": {
     "HomeWebPartStrings": "lib/webparts/home/loc/{locale}.js",
     "PivotWebPartStrings": "lib/webparts/pivot/loc/{locale}.js",
-    "PivotWebPartWebPartStrings": "lib/webparts/pivotWebPart/loc/{locale}.js"
+    "PivotWebPartWebPartStrings": "lib/webparts/pivotWebPart/loc/{locale}.js",
+    "PanelWebPartWebPartStrings": "lib/webparts/panelWebPart/loc/{locale}.js"
   }
 }
