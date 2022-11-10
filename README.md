@@ -15,8 +15,8 @@ This repository contains samples that demonstrate different fluent UI controls f
 
 ## Controls
 
-- [Panel](https://developer.microsoft.com/en-us/fluentui#/controls/web/panel)
-- [Pivot](https://developer.microsoft.com/en-us/fluentui#/controls/web/pivot)
+- [Panel](https://developer.microsoft.com/en-us/fluentui#/controls/web/panel) - [Sample Image](https://i.imgur.com/QLuRUo2.png)
+- [Pivot](https://developer.microsoft.com/en-us/fluentui#/controls/web/pivot) - [Sample Image](https://i.imgur.com/ohX5QYh.png)
 
 ## Using the sample
 
