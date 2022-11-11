@@ -17,6 +17,14 @@
           "manifest": "./src/webparts/panelWebPart/PanelWebPartWebPart.manifest.json"
         }
       ]
+    },
+    "details-list-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/detailsListWebPart/DetailsListWebPartWebPart.js",
+          "manifest": "./src/webparts/detailsListWebPart/DetailsListWebPartWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -24,6 +32,7 @@
     "HomeWebPartStrings": "lib/webparts/home/loc/{locale}.js",
     "PivotWebPartStrings": "lib/webparts/pivot/loc/{locale}.js",
     "PivotWebPartWebPartStrings": "lib/webparts/pivotWebPart/loc/{locale}.js",
-    "PanelWebPartWebPartStrings": "lib/webparts/panelWebPart/loc/{locale}.js"
+    "PanelWebPartWebPartStrings": "lib/webparts/panelWebPart/loc/{locale}.js",
+    "DetailsListWebPartWebPartStrings": "lib/webparts/detailsListWebPart/loc/{locale}.js"
   }
 }
