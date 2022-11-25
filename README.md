@@ -20,6 +20,7 @@ This repository contains samples that demonstrate different fluent UI controls f
 | [Panel](https://developer.microsoft.com/en-us/fluentui#/controls/web/panel) | [Image](https://i.imgur.com/QLuRUo2.png) |
 | [Pivot](https://developer.microsoft.com/en-us/fluentui#/controls/web/pivot) | [Image](https://i.imgur.com/ohX5QYh.png) |
 | [DetailsList](https://developer.microsoft.com/en-us/fluentui#/controls/web/detailslist) | [Image](https://i.imgur.com/A2tzZgx.png) |
+| [CommandBar](https://developer.microsoft.com/en-us/fluentui#/controls/web/commandbar) | [Image](https://i.imgur.com/N3hFrGk.png) |
 
 ## Using the sample
 
