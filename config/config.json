@@ -33,6 +33,14 @@
           "manifest": "./src/webparts/commandBarWebPart/CommandBarWebPartWebPart.manifest.json"
         }
       ]
+    },
+    "one-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/onePart/OnePartWebPart.js",
+          "manifest": "./src/webparts/onePart/OnePartWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -42,6 +50,7 @@
     "PivotWebPartWebPartStrings": "lib/webparts/pivotWebPart/loc/{locale}.js",
     "PanelWebPartWebPartStrings": "lib/webparts/panelWebPart/loc/{locale}.js",
     "DetailsListWebPartWebPartStrings": "lib/webparts/detailsListWebPart/loc/{locale}.js",
-    "CommandBarWebPartWebPartStrings": "lib/webparts/commandBarWebPart/loc/{locale}.js"
+    "CommandBarWebPartWebPartStrings": "lib/webparts/commandBarWebPart/loc/{locale}.js",
+    "OnePartWebPartStrings": "lib/webparts/onePart/loc/{locale}.js"
   }
 }
