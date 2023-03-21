@@ -41,6 +41,14 @@
           "manifest": "./src/webparts/onePart/OnePartWebPart.manifest.json"
         }
       ]
+    },
+    "editable-grid-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/editableGrid/EditableGridWebPart.js",
+          "manifest": "./src/webparts/editableGrid/EditableGridWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -51,6 +59,7 @@
     "PanelWebPartWebPartStrings": "lib/webparts/panelWebPart/loc/{locale}.js",
     "DetailsListWebPartWebPartStrings": "lib/webparts/detailsListWebPart/loc/{locale}.js",
     "CommandBarWebPartWebPartStrings": "lib/webparts/commandBarWebPart/loc/{locale}.js",
-    "OnePartWebPartStrings": "lib/webparts/onePart/loc/{locale}.js"
+    "OnePartWebPartStrings": "lib/webparts/onePart/loc/{locale}.js",
+    "EditableGridWebPartStrings": "lib/webparts/editableGrid/loc/{locale}.js"
   }
 }
