@@ -9,6 +9,7 @@ import {
   PrimaryButton,
 } from "office-ui-fabric-react";
 import { IPanelWebPartState } from "./IPanelWebPartState";
+import CommandBarWebPart from "../../commandBarWebPart/components/CommandBarWebPart";
 
 const buttonStyles = { root: { marginRight: 8 } };
 
