@@ -25,11 +25,7 @@ export default class OnePartWebPart extends BaseClientSideWebPart<IOnePartWebPar
     const element: React.ReactElement<IOnePartProps> = React.createElement(
       OnePart,
       {
-        description: this.properties.description,
-        isDarkTheme: this._isDarkTheme,
-        environmentMessage: this._environmentMessage,
-        hasTeamsContext: !!this.context.sdks.microsoftTeams,
-        userDisplayName: this.context.pageContext.user.displayName
+        context: this.context
       }
     );
 

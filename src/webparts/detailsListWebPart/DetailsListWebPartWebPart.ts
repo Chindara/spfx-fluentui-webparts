@@ -25,7 +25,6 @@ export default class DetailsListWebPartWebPart extends BaseClientSideWebPart<IDe
     const element: React.ReactElement<IDetailsListWebPartProps> = React.createElement(
       DetailsListWebPart,
       {
-        description: this.properties.description,
         context: this.context
       }
     );
