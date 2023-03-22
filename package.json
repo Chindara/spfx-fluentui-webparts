@@ -18,23 +18,24 @@
     "@microsoft/sp-webpart-base": "1.16.1",
     "@pnp/logging": "^3.8.0",
     "@pnp/sp": "^3.8.0",
+    "fluentui-editable-grid": "^1.12.1",
     "office-ui-fabric-react": "^7.199.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "tslib": "2.3.1"
   },
   "devDependencies": {
-    "@microsoft/rush-stack-compiler-4.5": "0.2.2",
-    "@rushstack/eslint-config": "2.5.1",
-    "@microsoft/eslint-plugin-spfx": "1.15.0",
     "@microsoft/eslint-config-spfx": "1.15.0",
-    "@microsoft/sp-build-web": "1.15.0",
-    "@types/webpack-env": "~1.15.2",
-    "ajv": "^6.12.5",
-    "gulp": "4.0.2",
+    "@microsoft/eslint-plugin-spfx": "1.15.0",
+    "@microsoft/rush-stack-compiler-4.5": "0.2.2",
+    "@microsoft/sp-build-web": "^1.16.1",
+    "@microsoft/sp-module-interfaces": "1.16.1",
+    "@rushstack/eslint-config": "2.5.1",
     "@types/react": "17.0.45",
     "@types/react-dom": "17.0.17",
+    "@types/webpack-env": "~1.15.2",
+    "ajv": "^6.12.5",
     "eslint-plugin-react-hooks": "4.3.0",
-    "@microsoft/sp-module-interfaces": "1.16.1"
+    "gulp": "4.0.2"
   }
 }

@@ -1,4 +1,4 @@
-export interface IEditableGridProps {
+export interface IEditableGridWebPartProps {
   description: string;
   isDarkTheme: boolean;
   environmentMessage: string;

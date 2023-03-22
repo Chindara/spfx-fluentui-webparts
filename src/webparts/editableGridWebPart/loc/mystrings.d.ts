@@ -1,4 +1,4 @@
-declare interface IEditableGridWebPartStrings {
+declare interface IEditableGridWebPartWebPartStrings {
   PropertyPaneDescription: string;
   BasicGroupName: string;
   DescriptionFieldLabel: string;
@@ -12,7 +12,7 @@ declare interface IEditableGridWebPartStrings {
   AppOutlookEnvironment: string;
 }
 
-declare module 'EditableGridWebPartStrings' {
-  const strings: IEditableGridWebPartStrings;
+declare module 'EditableGridWebPartWebPartStrings' {
+  const strings: IEditableGridWebPartWebPartStrings;
   export = strings;
 }

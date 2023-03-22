@@ -8,22 +8,22 @@ import {
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
-import * as strings from 'EditableGridWebPartStrings';
-import EditableGrid from './components/EditableGrid';
-import { IEditableGridProps } from './components/IEditableGridProps';
+import * as strings from 'EditableGridWebPartWebPartStrings';
+import EditableGridWebPart from './components/EditableGridWebPart';
+import { IEditableGridWebPartProps } from './components/IEditableGridWebPartProps';
 
-export interface IEditableGridWebPartProps {
+export interface IEditableGridWebPartWebPartProps {
   description: string;
 }
 
-export default class EditableGridWebPart extends BaseClientSideWebPart<IEditableGridWebPartProps> {
+export default class EditableGridWebPartWebPart extends BaseClientSideWebPart<IEditableGridWebPartWebPartProps> {
 
   private _isDarkTheme: boolean = false;
   private _environmentMessage: string = '';
 
   public render(): void {
-    const element: React.ReactElement<IEditableGridProps> = React.createElement(
-      EditableGrid,
+    const element: React.ReactElement<IEditableGridWebPartProps> = React.createElement(
+      EditableGridWebPart,
       {
         description: this.properties.description,
         isDarkTheme: this._isDarkTheme,

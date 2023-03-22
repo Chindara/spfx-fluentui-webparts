@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "e7001e79-18d1-4088-92a5-03b83026aaf6",
+  "alias": "EditableGridWebPartWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "EditableGrid WebPart" },
+    "description": { "default": "EditableGrid WebPart" },
+    "iconImageUrl": "https://i.imgur.com/QXCVme8.png",
+    "properties": {
+      "description": "EditableGrid WebPart"
+    }
+  }]
+}

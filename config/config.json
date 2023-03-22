@@ -42,11 +42,11 @@
         }
       ]
     },
-    "editable-grid-web-part": {
+    "editable-grid-web-part-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/editableGrid/EditableGridWebPart.js",
-          "manifest": "./src/webparts/editableGrid/EditableGridWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/editableGridWebPart/EditableGridWebPartWebPart.js",
+          "manifest": "./src/webparts/editableGridWebPart/EditableGridWebPartWebPart.manifest.json"
         }
       ]
     }
@@ -60,6 +60,7 @@
     "DetailsListWebPartWebPartStrings": "lib/webparts/detailsListWebPart/loc/{locale}.js",
     "CommandBarWebPartWebPartStrings": "lib/webparts/commandBarWebPart/loc/{locale}.js",
     "OnePartWebPartStrings": "lib/webparts/onePart/loc/{locale}.js",
-    "EditableGridWebPartStrings": "lib/webparts/editableGrid/loc/{locale}.js"
+    "EditableGridWebPartStrings": "lib/webparts/editableGrid/loc/{locale}.js",
+    "EditableGridWebPartWebPartStrings": "lib/webparts/editableGridWebPart/loc/{locale}.js"
   }
 }
