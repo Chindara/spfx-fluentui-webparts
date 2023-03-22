@@ -1,7 +1,5 @@
 import * as React from "react";
-import styles from "./OnePart.module.scss";
 import { IOnePartProps } from "./IOnePartProps";
-import { escape } from "@microsoft/sp-lodash-subset";
 import {
   ILabelStyles,
   IStyleSet,

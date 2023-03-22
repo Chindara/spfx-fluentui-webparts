@@ -1,7 +1,6 @@
 import * as React from "react";
 import styles from "./DetailsListWebPart.module.scss";
 import { IDetailsListWebPartProps } from "./IDetailsListWebPartProps";
-import { escape } from "@microsoft/sp-lodash-subset";
 import {
   ConstrainMode,
   DetailsList,
@@ -12,7 +11,6 @@ import {
   IIconProps,
   IRenderFunction,
   ITooltipHostProps,
-  Link,
   mergeStyleSets,
   ScrollablePane,
   ScrollbarVisibility,

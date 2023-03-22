@@ -1,7 +1,5 @@
 import * as React from "react";
-import styles from "./PanelWebPart.module.scss";
 import { IPanelWebPartProps } from "./IPanelWebPartProps";
-import { escape } from "@microsoft/sp-lodash-subset";
 import {
   DefaultButton,
   Panel,
@@ -9,7 +7,6 @@ import {
   PrimaryButton,
 } from "office-ui-fabric-react";
 import { IPanelWebPartState } from "./IPanelWebPartState";
-import CommandBarWebPart from "../../commandBarWebPart/components/CommandBarWebPart";
 
 const buttonStyles = { root: { marginRight: 8 } };
 
@@ -24,25 +21,25 @@ export default class PanelWebPart extends React.Component<
     };
   }
 
-  openPanel = () => {
+  openPanel = async (): Promise<void> => {
     this.setState({ isOpen: true });
   };
 
-  dismissPanel = () => {
+  dismissPanel = async (): Promise<void> => {
     this.setState({ isOpen: false });
   };
 
-  onSaveClick = () =>{
+  onSaveClick = async (): Promise<void> => {
     this.setState({ isOpen: false });
     console.log("Save button clicked.");
-  }
+  };
 
-  onCancelClick = () =>{
+  onCancelClick = async (): Promise<void> => {
     this.setState({ isOpen: false });
     console.log("Cancel button clicked.");
-  }
+  };
 
-  onRenderFooterContent = () => {
+  onRenderFooterContent = (): React.ReactElement => {
     return (
       <div>
         <PrimaryButton

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { ICommandBarWebPartProps } from "./ICommandBarWebPartProps";
-import { escape } from "@microsoft/sp-lodash-subset";
 import {
   CommandBar,
   IButtonProps,

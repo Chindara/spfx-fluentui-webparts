@@ -11,7 +11,6 @@ import { IReadonlyTheme } from "@microsoft/sp-component-base";
 import * as strings from "PanelWebPartWebPartStrings";
 import PanelWebPart from "./components/PanelWebPart";
 import { IPanelWebPartProps } from "./components/IPanelWebPartProps";
-import { PanelType } from "office-ui-fabric-react";
 
 export interface IPanelWebPartWebPartProps {
   description: string;

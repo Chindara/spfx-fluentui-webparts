@@ -17,7 +17,7 @@ export default class CommonService {
   public async getCandidates(): Promise<any> {
     try {
       return new Promise<any>(async (resolve, reject) => {
-        let response = await this._sp.web.lists
+        const response = await this._sp.web.lists
           .getByTitle('Recruitment tracker')
           .items
           .select('Title,Position,Progress,InterviewDate,LinkedInProfile')
